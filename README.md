@@ -1,1 +1,1 @@
-![My GitHub QR Code](qr_codes\QRCode_20250412171536.png)
+![My GitHub QR Code](qr_codes/QRCode_20250412171536.png)
