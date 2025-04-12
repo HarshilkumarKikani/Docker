@@ -44,6 +44,7 @@ def generate_qr_code(data, path, fill_color='red', back_color='white'):
         return  # Exit the function if the URL is not valid
 
     try:
+        logging.info(f"Generating QR code for URL: {data}")
         qr = qrcode.QRCode(version=1, box_size=10, border=5)
         qr.add_data(data)
         qr.make(fit=True)
